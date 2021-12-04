@@ -1,0 +1,9 @@
+"filename", "language", "Go", "XML", "SQL", "Go Checksum File", "comment", "blank", "total"
+"e:\Go\SherEats\database.go", "Go", 39, 0, 0, 0, 10, 9, 58
+"e:\Go\SherEats\go.mod", "XML", 0, 7, 0, 0, 0, 3, 10
+"e:\Go\SherEats\go.sum", "Go Checksum File", 0, 0, 0, 70, 0, 1, 71
+"e:\Go\SherEats\main.go", "Go", 14, 0, 0, 0, 1, 6, 21
+"e:\Go\SherEats\models\restaurant.go", "Go", 12, 0, 0, 0, 10, 2, 24
+"e:\Go\SherEats\sql\createTable.sql", "SQL", 0, 0, 59, 0, 8, 7, 74
+"e:\Go\SherEats\sql\populateData.sql", "SQL", 0, 0, 130, 0, 11, 13, 154
+"Total", "-", 65, 7, 189, 70, 40, 41, 412

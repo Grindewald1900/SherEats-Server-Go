@@ -44,9 +44,9 @@ func InsertDatabase() {
 	// println("InsertDatabase")
 
 	sqlStatement := `
-	INSERT INTO restaurant(id, name, address, genre, averageprice, tel, lat, long, isfavourite)
+	INSERT INTO restaurants(restaurant_id, restaurant_name, restaurant_address, restaurant_genre, restaurant_average, restaurant_tel, restaurant_lat, restaurant_long, restaurant_isFav)
 	VALUES(5, 'AAA', 'BBB', 'CCC', 12, '8190000000', 78.0011, 23.1111, true)
-	RETURNING id`
+	RETURNING restaurant_id`
 	id := 0
 	println(sqlStatement)
 	err2 := db.QueryRow(sqlStatement).Scan(&id)
